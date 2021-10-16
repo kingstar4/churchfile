@@ -1,0 +1,161 @@
+.first{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: first; 
+     animation-name: first;
+     animation-duration: 4s; 
+     font-size: 80px;
+ }
+
+
+ @keyframes first{
+    from {color: white;}
+    to {color:#000066}
+    
+  }
+  #about{
+    background: linear-gradient(to top right, #333300 0%, #000066 100%);
+    font-size:50px;
+    
+  }.jumbotron{
+    font-size: 100px;
+    background:linear-gradient(to top right, #333300 0%, #000066 100%);;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    color: white;
+    padding-left: 10px;
+  }p{
+    color: white;
+  }
+  .second{
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top: 30%;
+    color:white;
+    font-size: 100px;
+  }
+  h3{
+      color:white;
+      font-family: var(--secondary-font);
+      background-color: black;
+      position: fixed;
+  }
+  
+  .show{
+      display:block;
+  }
+  
+  .contact-area{
+    position:relative;
+    display:flex;
+    width: 100%;   
+    height: 700px;
+    background-image: url("./pic/contacts.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    align-items: flex-end;
+    }
+    .contact-area .content{
+    box-sizing:border-box;
+    position: absolute;
+    color:white;
+    width:100%;
+    padding:20px;
+    background: transparent;
+    bottom:0;
+  }.contact-area .social{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-row;
+    flex-direction: row;
+  
+  }
+  .social li a{
+    display:inline-block;
+    right:50px;
+    margin-left:50px;
+    text-decoration: none;
+  }
+  footer .copy{
+    z-index:2;
+    color:honeydew;
+   
+  }
+  
+  
+  .header-overlay{
+      height: 100%;
+      width:100%;
+      margin-top: 70px;
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:1;
+    }
+    .group{
+      display:flex;
+      flex-wrap:wrap;
+      align-content:space-between;
+      padding-bottom: 30px;
+  
+    }
+  
+  .card{
+    color:black;
+    transition:0.3s;
+    width:20em;
+    margin:12px;
+    padding-bottom: 20px;
+    margin-top:10em;
+    border-radius:5px;
+  }.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(204, 200, 200, 0.3220);
+    }
+    video{
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .container{
+      padding:5px 10px;
+      text-align:center;
+    
+    }h1{
+      color:white;
+      font-family:Calibri;
+      position:relative;
+      z-index:2;
+      font-size: 30px;
+    }h4{
+      color:black;
+  
+    }h2 {
+      color:white;
+      font-family:Arial, Helvetica, sans-serif;
+      text-align: center;
+      margin-top: 30%;
+      margin-left: 20%;
+      font-size:50px;
+      animation:type 4s steps(28), blink.6s infinite alternate;
+      overflow:hidden;
+      white-space: nowrap;
+      width:32.5ch;
+      border-right:2px solid;
+    
+    }@keyframes type{
+    from{
+        width:0;
+     }
+    }
+    @keyframes blink{
+        50%{
+            border-color:transparent;
+        }
+    } @media only screen and (max-width: 900px) {
+       h2{font-size: 21px} 
+      }
+  
